@@ -1,0 +1,11 @@
+<h1>Shortly</h1>
+<p>No longering since 2017</p>
+
+
+<%= form_for :link, url: short_index_path do |form| %>
+	<%= form.text_field :original_url %> <br>
+
+	<%= form.submit "Shorten"%>
+<% end %>
+
+<%= params.inspect %>
