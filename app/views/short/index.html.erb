@@ -1,10 +1,10 @@
-<h1>Shortly</h1>
-<p>No longering since 2017</p>
+<div class="form-box">
+	<%= form_for :link, url: short_index_path do |form| %>
+		<h1>Shortly</h1>
+		<p>No longering since 2017</p>
 
+		<%= form.text_field :original_url, :class => "form-input" %> <br>
 
-<%= form_for :link, url: short_index_path do |form| %>
-	<%= form.text_field :original_url %> <br>
-
-	<%= form.submit "Shorten"%>
-<% end %>
-
+		<%= form.submit "Shorten"%>
+	<% end %>
+</div>

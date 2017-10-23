@@ -1,3 +1,56 @@
 // Place all the styles related to the Short controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+body { 
+  background-image: url('https://images.unsplash.com/photo-1508144322886-717c284ab392?w=2550');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
+}
+
+.form-box{
+  height: 550px;
+  width: 60%;
+  margin: 0 auto;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  resize: both;
+  overflow: auto;
+}
+
+form {
+	background-color: rgba(0,0,0, 0.5);	
+	width: 850px;
+	height: 300px;
+	text-align: center;
+}
+
+h1 {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+	padding-top: 50px;
+}
+
+p {
+	color: white;
+	font-family: 'Montserrat', sans-serif;
+}
+
+.success-display {
+	background-color: rgba(0,0,0, 0.5);	
+	width: 850px;
+	height: 300px;
+	text-align: center;
+}
+
+.form-input {
+	height: 40px;
+	width: 400px;
+	border-radius: 5px;
+}
